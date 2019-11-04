@@ -1,0 +1,2200 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns:mv="http://macVmlSchemaUri" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name=Title content="">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="HW4_files/filelist.xml">
+<link rel=Edit-Time-Data href="http://users.eecs.northwestern.edu/~ollie/eecs395/HW4/HW4_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jinwei Gu</o:Author>
+  <o:LastAuthor>Oliver Cossairt</o:LastAuthor>
+  <o:Revision>20</o:Revision>
+  <o:TotalTime>97</o:TotalTime>
+  <o:LastPrinted>2012-11-14T23:51:00Z</o:LastPrinted>
+  <o:Created>2013-01-02T18:17:00Z</o:Created>
+  <o:LastSaved>2014-09-23T23:16:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>1393</o:Words>
+  <o:Characters>7942</o:Characters>
+  <o:Company>Rochester Institute of Technology</o:Company>
+  <o:Lines>66</o:Lines>
+  <o:Paragraphs>18</o:Paragraphs>
+  <o:CharactersWithSpaces>9317</o:CharactersWithSpaces>
+  <o:Version>14.0</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="HW4_files/themedata.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>150</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>18 pt</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>18 pt</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>JA</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef m:val="off"/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapRight/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="subSup"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" UnhideWhenUsed="false"
+   QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Courier New";
+	panose-1:2 7 3 9 2 2 5 2 4 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-536859905 -1073711037 9 0 511 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:78;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:1 134676480 16 0 131072 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073743103 0 0 415 0;}
+@font-face
+	{font-family:"Lucida Grande";
+	panose-1:2 11 6 0 4 5 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-520090897 1342218751 0 0 447 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:JA;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-noshow:yes;
+	mso-style-priority:35;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	mso-fareast-language:JA;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Lucida Grande";
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:JA;}
+span.MsoPlaceholderText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	color:gray;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:JA;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:JA;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:JA;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:JA;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Lucida Grande";
+	mso-ascii-font-family:"Lucida Grande";
+	mso-hansi-font-family:"Lucida Grande";
+	mso-bidi-font-family:"Lucida Grande";}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;
+	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"\FF2D\FF33 \660E\671D";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:JA;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:94982659;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-285573938 67698703 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:271210570;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-999887242 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2
+	{mso-list-id:572938016;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1709460776 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l3
+	{mso-list-id:605500718;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1768753464 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l3:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:2.0in;
+	text-indent:-9.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.5in;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:3.5in;
+	text-indent:-9.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.0in;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.5in;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:5.0in;
+	text-indent:-9.0pt;}
+@list l4
+	{mso-list-id:1167478289;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1885377270 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l4:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l4:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l5
+	{mso-list-id:1389232232;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1853472780 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l5:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l5:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:JA;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1030"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>HW4: High
+Dynamic Range Imaging and Tone-mapping (15 Points)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>Due: Tuesday
+11/13 at 11:59pm</span></b><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>EECS 395/495: Introduction
+to Computational Photography<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>The
+goal of this homework is to explore the dynamic range properties of images captured
+by your Tegra device. You will write a program to capture a sequence of images
+with different exposure settings, use these images to find the camera response
+curve, recover the true irradiance image for the scene, and apply a
+tone-mapping algorithm to visualize this final image. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>1. Write an Auto Exposure
+Bracketing (AEB) function for <span class=SpellE>Tegra</span> (5 Points)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>You
+need to write a <span class=SpellE>Tegra</span> program that will capture a
+sequence of exposures with different exposure times. Here are some guidelines:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l5 level1 lfo2'><![if !supportLists]><span
+style='mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin;
+mso-bidi-font-family:Cambria;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>Implement the function that first sets the exposure time to be as large as
+possible without allowing any pixels to saturate (i.e. have a value of 255). </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l5 level1 lfo2'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>&nbsp;&nbsp;&nbsp;Capture an image with this exposure time<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l5 level1 lfo2'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>&nbsp;&nbsp;&nbsp;Increase the exposure time by a factor of 2 and take a new picture.
+Repeat this procedure until at least %20 of the pixels <span class=GramE>are</span>
+saturated. <i style='mso-bidi-font-style:normal'>Hint: you dont need to worry about 20% saturation when capturing, just remove those >20% saturation pictures when processing them in Matlab</i><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l5 level1 lfo2'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>Find a scene with enough dynamic range that it requires at least 5
+different exposures to be captured.<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l5 level1 lfo2'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>You will need to do a bit of checking beforehand to make sure that <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l5 level2 lfo2'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span class=GramE><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'>the</span></span><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'> scene is not so bright that it is not possible to
+set an exposure time low enough for no pixels to saturate<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l5 level2 lfo2'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>The scene is not so dim that it is not possible to set an exposure time
+high enough so that at least %20 of the pixels saturate.<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l5 level1 lfo2'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>Keep track of the exposure times that you used to capture the images.<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l5 level1 lfo2'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>Save all of your images in .jpg format<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l5 level1 lfo2'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>Look at the TODO:hw4 tabs inside the bakcbone project and insert/edit
+code as you need. <o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>2. Write a program to find
+the camera response curves for the shield tablet (2 Points)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>We
+can model the brightness measured by the <span class=SpellE>i<sup>th</sup></span><sup>
+</sup>pixel during the <span class=SpellE>j<sup>th</sup></span> exposure as:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 14.0pt;font-family:"Cambria Math"'><m:r><span>Z</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>,</m:r></span><m:r><span>j</m:r></span><m:r><span>]</m:r></span></span></i><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>=</m:r></span><m:r><span>f</m:r></span><m:r><span>(</m:r></span></span></i><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 14.0pt;font-family:"Cambria Math"'><m:r><span>E</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>&#8901;</m:r></span></span></i><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 14.0pt;font-family:"Cambria Math"'><m:r><span>B</m:r></span><m:r><span>[</m:r></span><m:r><span>j</m:r></span><m:r><span>]</m:r></span></span></i><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>)</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:4.0pt;mso-text-raise:-4.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=170 height=23 id="_x0000_i1025" src="HW4_files/image001.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp; </span><b style='mso-bidi-font-weight:
+normal'>(1)<o:p></o:p></b></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span><span class=GramE>where</span> </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;font-family:
+ "Cambria Math"'><m:r><span>E</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=26 height=18 id="_x0000_i1025" src="HW4_files/image002.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span>is the actual irradiance incident on the <span
+class=SpellE>i<sup>th</sup></span><sup> </sup>pixel, </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;font-family:
+ "Cambria Math"'><m:r><span>B</m:r></span><m:r><span>[</m:r></span><m:r><span>j</m:r></span><m:r><span>]</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=27 height=18 id="_x0000_i1025" src="HW4_files/image003.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span>is the exposure time of the <span
+class=SpellE>j<sup>th</sup></span> captured image, and <i style='mso-bidi-font-style:
+normal'>f </i><span style="mso-spacerun:yes">&nbsp;</span>is the camera
+response function that maps exposure values to digital numbers (usually in the range
+0-255). Defining </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>g</m:r></span><span class=GramE><m:r><span>(</m:r></span></span><m:r><span>x</m:r></span><m:r><span>)=</m:r></span></span></i><span
+ style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+    m:val="roman"/><m:sty m:val="p"/></m:rPr>ln&#8289;</m:r></span></span><m:sSup><m:sSupPr><span
+   style='font-size:14.0pt;mso-ansi-font-size:14.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSupPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>f</m:r></span></span></i><span
+   style='font-size:14.0pt;mso-ansi-font-size:14.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math"'><m:ctrlPr></m:ctrlPr></span></m:e><m:sup><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>-</m:r></span><m:r><span>1</m:r></span></span></i></m:sup></m:sSup><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>(</m:r></span><m:r><span>x</m:r></span><m:r><span>)</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=107 height=19 id="_x0000_i1025" src="HW4_files/image004.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>, we can write<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>g</m:r></span></span></i><m:d><m:dPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   14.0pt;font-family:"Cambria Math"'><m:r><span>Z</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>,</m:r></span><m:r><span>j</m:r></span><m:r><span>]</m:r></span></span></i></m:e></m:d><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>=</m:r></span></span></i><m:func><m:funcPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math"'><m:ctrlPr></m:ctrlPr></span></m:funcPr><m:fName><span
+   style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+      m:val="roman"/><m:sty m:val="p"/></m:rPr>ln</m:r></span></span><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fName><m:e><m:d><m:dPr><span
+     style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+     font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+     normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><i style='mso-bidi-font-style:
+     normal'><span style='font-size:18.0pt;mso-bidi-font-size:14.0pt;
+     font-family:"Cambria Math"'><m:r><span>E</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i></m:e></m:d></m:e></m:func><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>+</m:r></span></span></i><span
+ style='font-size:18.0pt;mso-bidi-font-size:14.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+    m:val="roman"/><m:sty m:val="p"/></m:rPr>ln&#8289;</m:r></span><m:r><span><i
+  style='mso-bidi-font-style:normal'>(</i></m:r></span><m:r><span><i
+  style='mso-bidi-font-style:normal'>B</i></m:r></span><m:r><span><i
+  style='mso-bidi-font-style:normal'>[</i></m:r></span><m:r><span><i
+  style='mso-bidi-font-style:normal'>j</i></m:r></span><m:r><span><i
+  style='mso-bidi-font-style:normal'>]</i></m:r></span></span><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>)</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:4.0pt;mso-text-raise:-4.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=243 height=23 id="_x0000_i1025" src="HW4_files/image005.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp; </span><b style='mso-bidi-font-weight:
+normal'>(2)<o:p></o:p></b></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>You
+will use the method from <span class=SpellE>Debevec</span> et al. [1] to
+recover the response curve </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>g</m:r></span></span></i><m:d><m:dPr><span
+   style='font-size:14.0pt;mso-ansi-font-size:14.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>Z</m:r></span></span></i></m:e></m:d></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=31 height=18 id="_x0000_i1025" src="HW4_files/image006.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span>for values in the range </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>Z</m:r></span><span class=GramE><m:r><span>&#8712;[</m:r></span></span><m:r><span>0,255]</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=71 height=18 id="_x0000_i1025" src="HW4_files/image007.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>.<span
+style="mso-spacerun:yes">&nbsp; </span>You can download the Matlab code to recover
+the response curve here (<a
+href="gsolve.m"><span
+class=SpellE>gsolve.m</span></a>). Here are some guidelines for using the <span
+class=SpellE>gsolve</span> MATLAB function:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>You will need to choose a value for the regularization parameter <i
+style='mso-bidi-font-style:normal'>l. </i>Try a few different values in the
+range </span><!--[if gte msEquation 12]><m:oMath><i style='mso-bidi-font-style:
+ normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:
+ "Cambria Math"'><m:r><span>l</m:r></span></span></i><span class=GramE><m:r><span><i
+  style='mso-bidi-font-style:normal'><span lang=JA style='font-size:14.0pt;
+  mso-bidi-font-size:12.0pt;font-family:"\FF2D\FF33 \660E\671D";mso-ascii-font-family:
+  "Cambria Math";mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:
+  minor-fareast;mso-hansi-font-family:"Cambria Math"'>&#8712;</span></i></m:r></span><m:r><span><i
+  style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Cambria Math"'>[</span></i></m:r></span></span><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>.1, 5]</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=57 height=18 id="_x0000_i1025" src="HW4_files/image008.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>. How does adjusting this
+parameter affect the result you get for the response curve?<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>In the lecture, we discussed the weighting parameter </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>w</m:r></span><span class=GramE><m:r><span>(</m:r></span></span><m:r><span>Z</m:r></span><m:r><span>)</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=33 height=18 id="_x0000_i1025" src="HW4_files/image009.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>. Here we are going to
+ignore this parameter (you can see that it is set to a constant in <span
+class=SpellE><i style='mso-bidi-font-style:normal'>gsolve.m</i></span>)<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>You should find the response curves for the green, blue and red
+channels independently<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>DO NOT USE ALL THE PIXELS IN THE IMAGE TO SOLVE FOR THE RESPONSE CURVE!
+This will be extremely slow. Instead, you can choose a random subset of
+100-1000 pixels to use as input to <span class=SpellE><i style='mso-bidi-font-style:
+normal'>gsolve</i></span><i style='mso-bidi-font-style:normal'>.</i><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>Once you run <span class=SpellE>gsolve.m</span> successfully, you will
+be given two outputs, the response curve <i style='mso-bidi-font-style:normal'>g</i>
+and the recovered log radiance <span class=SpellE><i style='mso-bidi-font-style:
+normal'>lE</i></span> for each of the pixels that you input to the algorithm.
+Plot the recovered values for </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>g</m:r></span><span class=GramE><m:r><span>(</m:r></span></span><m:r><span>Z</m:r></span><m:r><span>)</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=31 height=18 id="_x0000_i1025" src="HW4_files/image010.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span>versus the valid range of pixel
+values<span style="mso-spacerun:yes">&nbsp; </span></span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>Z</m:r></span><m:r><span>&#8712;[0,255]</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=71 height=18 id="_x0000_i1025" src="HW4_files/image011.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>. Do this for each of the
+red, green and blue channels.<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l1 level1 lfo4'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>In the same figure, also include a plot of the log exposure for each of
+the pixels used as input to <span class=SpellE><i style='mso-bidi-font-style:
+normal'>gsolve.m</i></span>. To generate this plot, take the measured pixel
+value for each pixel </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;font-family:
+ "Cambria Math"'><m:r><span>Z</m:r></span><span class=GramE><m:r><span>[</m:r></span></span><m:r><span>i</m:r></span><m:r><span>,</m:r></span><m:r><span>j</m:r></span><m:r><span>]</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=36 height=18 id="_x0000_i1025" src="HW4_files/image012.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span>and plot it against the sum of the
+recovered log irradiance and log exposure time, </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;font-family:
+ "Cambria Math"'><m:r><span>X</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>,</m:r></span><m:r><span>j</m:r></span><m:r><span>]</m:r></span></span></i><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>=</m:r></span><m:r><span>l</m:r></span></span></i><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;font-family:
+ "Cambria Math"'><m:r><span>E</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span> +</m:r></span></span></i><m:func><m:funcPr><span
+   style='font-size:14.0pt;mso-ansi-font-size:14.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:funcPr><m:fName><span
+   style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+      m:val="roman"/><m:sty m:val="p"/></m:rPr>ln</m:r></span></span></m:fName><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>(</m:r></span></span></i><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;font-family:
+   "Cambria Math"'><m:r><span>B</m:r></span><m:r><span>[</m:r></span><m:r><span>j</m:r></span><m:r><span>]</m:r></span></span></i><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>)</m:r></span></span></i></m:e></m:func></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=151 height=18 id="_x0000_i1025" src="HW4_files/image013.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>. The plot should look
+something like this:<span style="mso-spacerun:yes">&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast align=center style='text-align:center'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-language:EN-US;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_5" o:spid="_x0000_i1025" type="#_x0000_t75"
+ alt="Description: Macintosh HD:Users:ollie:Desktop:Northwestern:Teaching:Computer Vision on Programmable Cameras:Winter 2012:HW1_Matlab:RedResponseCurve.jpg"
+ style='width:8in;height:448pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="HW4_files/image014.jpg" o:title="RedResponseCurve"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=578 height=450
+src="HW4_files/image015.png"
+alt="Description: Macintosh HD:Users:ollie:Desktop:Northwestern:Teaching:Computer Vision on Programmable Cameras:Winter 2012:HW1_Matlab:RedResponseCurve.jpg"
+v:shapes="Picture_x0020_5"><![endif]></span><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>3. Recover the HDR radiance
+map of the scene (3 Points)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>Once
+you have recovered the camera response curve you are now ready to recover a
+radiance image from your sequence of exposures. You can recover you're the
+radiance map using the following equation<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><!--[if gte msEquation 12]><m:oMath><m:func><m:funcPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math"'><m:ctrlPr></m:ctrlPr></span></m:funcPr><m:fName><span
+   style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+      m:val="roman"/><m:sty m:val="p"/></m:rPr>ln</m:r></span></span></m:fName><m:e><m:d><m:dPr><span
+     style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+     font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+     normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><i style='mso-bidi-font-style:
+     normal'><span style='font-size:18.0pt;mso-bidi-font-size:14.0pt;
+     font-family:"Cambria Math"'><m:r><span>E</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i></m:e></m:d></m:e></m:func><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>=</m:r></span></span></i><m:f><m:fPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:18.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>1</m:r></span></span></i></m:num><m:den><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>P</m:r></span></span></i></m:den></m:f><m:nary><m:naryPr><m:chr
+    m:val="�"/><m:limLoc m:val="undOvr"/><span style='font-size:18.0pt;
+   mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;font-family:"Cambria Math";
+   mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:"Cambria Math";
+   font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:naryPr><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>j</m:r></span><m:r><span>=1</m:r></span></span></i></m:sub><m:sup><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>P</m:r></span></span></i></m:sup><m:e><m:d><m:dPr><span
+     style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+     font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+     normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><i style='mso-bidi-font-style:
+     normal'><span style='font-size:18.0pt;mso-bidi-font-size:12.0pt;
+     font-family:"Cambria Math"'><m:r><span>g</m:r></span></span></i><m:d><m:dPr><span
+       style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:
+       14.0pt;font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+       mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+       normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><i style='mso-bidi-font-style:
+       normal'><span style='font-size:18.0pt;mso-bidi-font-size:14.0pt;
+       font-family:"Cambria Math"'><m:r><span>Z</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>,</m:r></span><m:r><span>j</m:r></span><m:r><span>]</m:r></span></span></i></m:e></m:d><i
+     style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+     mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>-</m:r></span></span></i><m:func><m:funcPr><span
+       style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:
+       14.0pt;font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+       mso-hansi-font-family:"Cambria Math"'><m:ctrlPr></m:ctrlPr></span></m:funcPr><m:fName><span
+       style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+          m:val="roman"/><m:sty m:val="p"/></m:rPr>ln</m:r></span></span><span
+       style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:
+       14.0pt;font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+       mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+       normal'><m:ctrlPr></m:ctrlPr></span></m:fName><m:e><m:d><m:dPr><span
+         style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:
+         14.0pt;font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+         mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+         normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><i style='mso-bidi-font-style:
+         normal'><span style='font-size:18.0pt;mso-bidi-font-size:14.0pt;
+         font-family:"Cambria Math"'><m:r><span>B</m:r></span><m:r><span>[</m:r></span><m:r><span>j</m:r></span><m:r><span>]</m:r></span></span></i></m:e></m:d></m:e></m:func></m:e></m:d></m:e></m:nary></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:9.0pt;mso-text-raise:-9.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=302 height=32 id="_x0000_i1025" src="HW4_files/image016.png"></span><![endif]><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp; </span></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>(3)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>where</span></span><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'> <i style='mso-bidi-font-style:normal'>P </i>is the number of images
+that you captured in part 1). Here are some guidelines:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l2 level1 lfo6'><![if !supportLists]><i
+style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin;
+mso-bidi-font-family:Cambria;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span></i><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>This can be a bit tricky to implement. <i style='mso-bidi-font-style:
+normal'>Hint</i>: <i style='mso-bidi-font-style:normal'>The key here is that
+you will need to iterate over all possible pixel values. Use the <span
+class=SpellE>Matlab</span> 'find' function to get the indices of the pixels
+that correspond to a particular pixel value. Then use equation 3) to find the
+irradiance for those pixels. Repeat the procedure for each possible pixel value
+from 0-255;<o:p></o:p></i></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l2 level1 lfo6'><![if !supportLists]><i
+style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin;
+mso-bidi-font-family:Cambria;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span></i><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>You need to implement this equation separately for each color channel
+in the radiance image.<i style='mso-bidi-font-style:normal'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><o:p></o:p></i></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l2 level1 lfo6'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>You can test out this code by downloading the response curve from <a
+href="debevec_response.mat">here</a>,
+and running your code on the memorial image sequence that you can download from
+Paul <span class=SpellE>Debevec's</span> website <a
+href="http://www.debevec.org/Research/HDR/SourceImages/Memorial_SourceImages.zip">here</a>.
+Your result should look something like this<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle align=center style='text-align:center'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-language:EN-US;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_7" o:spid="_x0000_i1026"
+ type="#_x0000_t75" alt="Description: Macintosh HD:Users:ollie:Desktop:Northwestern:Teaching:Computer Vision on Programmable Cameras:Winter 2012:HW1_Matlab:memorial_radiance.jpg"
+ style='width:575pt;height:447pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="HW4_files/image017.jpg" o:title="memorial_radiance"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=577 height=449
+src="HW4_files/image018.png"
+alt="Description: Macintosh HD:Users:ollie:Desktop:Northwestern:Teaching:Computer Vision on Programmable Cameras:Winter 2012:HW1_Matlab:memorial_radiance.jpg"
+v:shapes="Picture_x0020_7"><![endif]></span><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l2 level1 lfo6'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>Show a plot of the radiance image recovered from the AEB sequence you
+captured in part 1). What is the dynamic range of your scene? For example, i.e.
+the dynamic range of the memorial scene is nearly 10^6 or 1,000,000:1. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='text-indent:-.25in;mso-list:l2 level1 lfo6'><![if !supportLists]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt;mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin;
+mso-bidi-font-family:Cambria;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>Implement a tone mapping
+algorithm to display your HDR image (5 Points)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpFirst><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>The radiance map you recovered in part 3) likely has a much larger
+dynamic range than any electronic display device you will use to view the
+image. You now need to apply a simple global tone-mapping algorithm to your
+radiance image so that you can visualize the scene in a perceptually compelling
+way.<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l3 level1 lfo8'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>First just scale the brightness of each pixel uniformly so that all of
+the pixels fall in the range [0,1]. You will need to apply the following
+scaling algorithm to each color channel<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   14.0pt;font-family:"Cambria Math"'><m:r><span>E</m:r></span></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   14.0pt;font-family:"Cambria Math"'><m:r><span>norm</m:r></span></span></i></m:sub></m:sSub><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]=</m:r></span></span></i><m:f><m:fPr><span
+   style='font-size:22.0pt;mso-ansi-font-size:22.0pt;mso-bidi-font-size:18.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><i
+   style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;mso-bidi-font-size:
+   18.0pt;font-family:"Cambria Math"'><m:r><span>E</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><i
+   style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>-</m:r></span></span></i><m:sSub><m:sSubPr><span
+     style='font-size:22.0pt;mso-ansi-font-size:22.0pt;mso-bidi-font-size:18.0pt;
+     font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+     normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+     normal'><span style='font-size:22.0pt;mso-bidi-font-size:12.0pt;
+     font-family:"Cambria Math"'><m:r><span>E</m:r></span></span></i></m:e><m:sub><i
+     style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;
+     mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>min</m:r></span></span></i></m:sub></m:sSub></m:num><m:den><m:sSub><m:sSubPr><span
+     style='font-size:22.0pt;mso-ansi-font-size:22.0pt;mso-bidi-font-size:18.0pt;
+     font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+     normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+     normal'><span style='font-size:22.0pt;mso-bidi-font-size:12.0pt;
+     font-family:"Cambria Math"'><m:r><span>E</m:r></span></span></i></m:e><m:sub><i
+     style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;
+     mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>max</m:r></span></span></i></m:sub></m:sSub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>-</m:r></span></span></i><m:sSub><m:sSubPr><span
+     style='font-size:22.0pt;mso-ansi-font-size:22.0pt;mso-bidi-font-size:18.0pt;
+     font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+     normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+     normal'><span style='font-size:22.0pt;mso-bidi-font-size:12.0pt;
+     font-family:"Cambria Math"'><m:r><span>E</m:r></span></span></i></m:e><m:sub><i
+     style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;
+     mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>min</m:r></span></span></i></m:sub></m:sSub></m:den></m:f></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:13.0pt;mso-text-raise:
+-13.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=171 height=40 id="_x0000_i1025" src="HW4_files/image019.png"></span><![endif]><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp; </span></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>(4)<o:p></o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><span class=GramE><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>where</span></span><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'> </span><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-size:14.0pt;mso-ansi-font-size:14.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>E</m:r></span></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>max</m:r></span></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=32 height=18 id="_x0000_i1025" src="HW4_files/image020.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span>and </span><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-size:14.0pt;mso-ansi-font-size:14.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>E</m:r></span></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>min</m:r></span></span></i></m:sub></m:sSub></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=30 height=18 id="_x0000_i1025" src="HW4_files/image021.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span>are the maximum and minimum pixel values
+taken across all color channels. The <span class=GramE>image will</span> likely
+look very dark because most of the display dynamic range will be used up by the
+pixels with higher radiance values Include a figure of this image. <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l3 level1 lfo8'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>Next apply a gamma curve to the image. To do this simply raise the
+irradiance of each pixel to <span class=GramE>the with</span> an exponent of </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>&#947;</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=10 height=18 id="_x0000_i1025" src="HW4_files/image022.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>.<span
+style="mso-spacerun:yes">&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   14.0pt;font-family:"Cambria Math"'><m:r><span>E</m:r></span></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>gamma</m:r></span></span></i></m:sub></m:sSub><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]=</m:r></span></span></i><m:sSubSup><m:sSubSupPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubSupPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   14.0pt;font-family:"Cambria Math"'><m:r><span>E</m:r></span></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>norm</m:r></span></span></i></m:sub><m:sup><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>&#947;</m:r></span></span></i></m:sup></m:sSubSup><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 14.0pt;font-family:"Cambria Math"'><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:6.0pt;mso-text-raise:-6.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=169 height=27 id="_x0000_i1025" src="HW4_files/image023.png"></span><![endif]><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp; </span></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>(5)<o:p></o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>Play with
+different values for </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>&#947;</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=10 height=18 id="_x0000_i1025" src="HW4_files/image024.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span>and report your results. Can you find a
+value that gives you visually pleasing results?<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l3 level1 lfo8'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>Lastly, try the global <span class=GramE>tone mapping</span> operator
+from <span class=SpellE>Reinhard</span> '02 [2]. First you will need to convert
+the radiance image from color to <span class=SpellE>grayscale</span>. Note that
+you will first need to normalize the image using Eq. 4.<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>L</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]=</m:r></span><m:r><span>rgb</m:r></span><m:r><span>2</m:r></span><m:r><span>gray</m:r></span><m:r><span>(</m:r></span></span></i><m:sSub><m:sSubPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:18.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>E</m:r></span></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>norm</m:r></span></span></i></m:sub></m:sSub><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>])</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:4.0pt;mso-text-raise:-4.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=214 height=23 id="_x0000_i1025" src="HW4_files/image025.png"></span><![endif]><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp; </span></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>(6)<o:p></o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;mso-add-space:auto'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp;</span>Then use the following equations to
+implement the tone mapping. We first calculate the log average exposure <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><span
+   style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+      m:val="roman"/><m:sty m:val="p"/></m:rPr>L</m:r></span></span></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>avg</m:r></span></span></i></m:sub></m:sSub><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>=</m:r></span></span></i><span
+ style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+    m:val="roman"/><m:sty m:val="p"/></m:rPr>exp&#8289;</m:r></span></span><m:d><m:dPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math"'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><m:f><m:fPr><span
+     style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+     font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+     normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><i style='mso-bidi-font-style:
+     normal'><span style='font-size:18.0pt;mso-bidi-font-size:12.0pt;
+     font-family:"Cambria Math"'><m:r><span>1</m:r></span></span></i></m:num><m:den><i
+     style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+     mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>N</m:r></span></span></i></m:den></m:f><m:nary><m:naryPr><m:chr
+      m:val="�"/><m:supHide m:val="on"/><span style='font-size:18.0pt;
+     mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;font-family:"Cambria Math";
+     mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:"Cambria Math";
+     font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:naryPr><m:sub><i
+     style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+     mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>i</m:r></span></span></i></m:sub><m:sup></m:sup><m:e><span
+     style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr>ln&#8289;</m:r></span><m:r><span><i
+      style='mso-bidi-font-style:normal'>(</i></m:r></span></span><i
+     style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+     mso-bidi-font-size:14.0pt;font-family:"Cambria Math"'><m:r><span>L</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><i
+     style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+     mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>)</m:r></span></span></i></m:e></m:nary></m:e></m:d></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:10.0pt;mso-text-raise:
+-10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=209 height=34 id="_x0000_i1025" src="HW4_files/image026.png"></span><![endif]><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp; </span></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>(7)<o:p></o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>Where the
+summation is over all of the pixels in the luminance image. Next scale the
+image according to:<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 14.0pt;font-family:"Cambria Math"'><m:r><span>T</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>=</m:r></span></span></i><m:f><m:fPr><m:type
+    m:val="skw"/><span style='font-size:18.0pt;mso-ansi-font-size:18.0pt;
+   mso-bidi-font-size:14.0pt;font-family:"Cambria Math";mso-ascii-font-family:
+   "Cambria Math";mso-hansi-font-family:"Cambria Math";font-style:italic;
+   mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>a</m:r></span></span></i></m:num><m:den><m:sSub><m:sSubPr><span
+     style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+     font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+     normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+     normal'><span style='font-size:18.0pt;mso-bidi-font-size:12.0pt;
+     font-family:"Cambria Math"'><m:r><span>L</m:r></span></span></i></m:e><m:sub><i
+     style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+     mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>avg</m:r></span></span></i></m:sub></m:sSub></m:den></m:f><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 14.0pt;font-family:"Cambria Math"'><m:r><span>L</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:14.0pt;mso-text-raise:
+-14.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=139 height=33 id="_x0000_i1025" src="HW4_files/image027.png"></span><![endif]><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp; </span></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>(8)<o:p></o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>Next apply the <span
+class=SpellE>Reinhard</span> tone-mapping operator:<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpMiddle align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>L</m:r></span></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>tone</m:r></span></span></i></m:sub></m:sSub><i
+ style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]=</m:r></span></span></i><m:f><m:fPr><span
+   style='font-size:22.0pt;mso-ansi-font-size:22.0pt;mso-bidi-font-size:18.0pt;
+   font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+   "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><i
+   style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;mso-bidi-font-size:
+   18.0pt;font-family:"Cambria Math"'><m:r><span>T</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><m:d><m:dPr><span
+     style='font-size:22.0pt;mso-ansi-font-size:22.0pt;mso-bidi-font-size:18.0pt;
+     font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+     normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><i style='mso-bidi-font-style:
+     normal'><span style='font-size:22.0pt;mso-bidi-font-size:12.0pt;
+     font-family:"Cambria Math"'><m:r><span>1+</m:r></span></span></i><m:f><m:fPr><m:type
+        m:val="skw"/><span style='font-size:22.0pt;mso-ansi-font-size:22.0pt;
+       mso-bidi-font-size:18.0pt;font-family:"Cambria Math";mso-ascii-font-family:
+       "Cambria Math";mso-hansi-font-family:"Cambria Math";font-style:italic;
+       mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><i
+       style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;
+       mso-bidi-font-size:18.0pt;font-family:"Cambria Math"'><m:r><span>T</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i></m:num><m:den><m:sSubSup><m:sSubSupPr><span
+         style='font-size:22.0pt;mso-ansi-font-size:22.0pt;mso-bidi-font-size:
+         18.0pt;font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+         mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+         normal'><m:ctrlPr></m:ctrlPr></span></m:sSubSupPr><m:e><i
+         style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;
+         mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>T</m:r></span></span></i></m:e><m:sub><i
+         style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;
+         mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>max</m:r></span></span></i></m:sub><m:sup><i
+         style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;
+         mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>2</m:r></span></span></i></m:sup></m:sSubSup></m:den></m:f></m:e></m:d></m:num><m:den><i
+   style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;mso-bidi-font-size:
+   12.0pt;font-family:"Cambria Math"'><m:r><span>1+</m:r></span></span></i><i
+   style='mso-bidi-font-style:normal'><span style='font-size:22.0pt;mso-bidi-font-size:
+   18.0pt;font-family:"Cambria Math"'><m:r><span>T</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i></m:den></m:f></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:13.0pt;mso-text-raise:
+-13.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=212 height=63 id="_x0000_i1025" src="HW4_files/image028.png"></span><![endif]><span
+style='font-size:20.0pt;mso-bidi-font-size:12.0pt'><span
+style="mso-spacerun:yes">&nbsp; </span></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>(9)<o:p></o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpLast align=center style='margin-left:1.0in;
+mso-add-space:auto;text-align:center'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'>Finally, define the scaling operator<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-left:1.0in;text-align:center'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><i
+  style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+  14.0pt;font-family:"Cambria Math"'><m:r><span>M</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><i
+  style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Cambria Math"'><m:r><span>= </m:r></span></span></i><m:f><m:fPr><m:type
+     m:val="skw"/><span style='font-size:18.0pt;mso-ansi-font-size:18.0pt;
+    mso-bidi-font-size:14.0pt;font-family:"Cambria Math";mso-ascii-font-family:
+    "Cambria Math";mso-hansi-font-family:"Cambria Math";font-style:italic;
+    mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><m:sSub><m:sSubPr><span
+      style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:
+      18.0pt;font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";
+      mso-hansi-font-family:"Cambria Math";font-style:italic;mso-bidi-font-style:
+      normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i style='mso-bidi-font-style:
+      normal'><span style='font-size:18.0pt;mso-bidi-font-size:12.0pt;
+      font-family:"Cambria Math"'><m:r><span>L</m:r></span></span></i></m:e><m:sub><i
+      style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+      mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>tone</m:r></span></span></i></m:sub></m:sSub><i
+    style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+    font-family:"Cambria Math"'><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i></m:num><m:den><i
+    style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+    mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>L</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i></m:den></m:f><b
+  style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
+  style='font-size:18.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span><m:rPr><m:scr
+     m:val="roman"/><m:sty m:val="bi"/></m:rPr> </m:r></span></span></i></b></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><img width=162 height=39 id="_x0000_i1025"
+src="HW4_files/image029.png"></span><![endif]><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span class=GramE><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>and</span></span><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'> use this to scale each of
+the color channels in the radiance image. If the red, green, and blue channels
+of the radiance image are <i style='mso-bidi-font-style:normal'>R</i>, <i
+style='mso-bidi-font-style:normal'>G</i>, and <i style='mso-bidi-font-style:
+normal'>B, </i><span class=GramE>form</span> a new RGB image according to:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-left:1.0in;text-align:center'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+    style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+    font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+    "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+    style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+    mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>R</m:r></span></span></i></m:e><m:sub><i
+    style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+    mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>n</m:r></span><m:r><span>ew</m:r></span></span></i></m:sub></m:sSub><i
+  style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Cambria Math"'><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]=
+   </m:r></span></span></i><i style='mso-bidi-font-style:normal'><span
+  style='font-size:18.0pt;mso-bidi-font-size:14.0pt;font-family:"Cambria Math"'><m:r><span>M</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><i
+  style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Cambria Math"'><m:r><span>&#8901;</m:r></span><m:r><span>R</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span><m:r><span><m:rPr><m:scr
+     m:val="roman"/><m:sty m:val="bi"/></m:rPr><b style='mso-bidi-font-weight:
+   normal'>, </b></m:r></span></span></i></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><img width=173 height=23 id="_x0000_i1025"
+src="HW4_files/image030.png"></span><![endif]><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='margin-left:1.0in;text-align:center'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+    style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+    font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+    "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+    style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+    mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>G</m:r></span></span></i></m:e><m:sub><i
+    style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+    mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>new</m:r></span></span></i></m:sub></m:sSub><i
+  style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Cambria Math"'><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]=
+   </m:r></span></span></i><i style='mso-bidi-font-style:normal'><span
+  style='font-size:18.0pt;mso-bidi-font-size:14.0pt;font-family:"Cambria Math"'><m:r><span>M</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><i
+  style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Cambria Math"'><m:r><span>&#8901;</m:r></span><m:r><span>G</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>],
+   </m:r></span></span></i></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><img width=172 height=23 id="_x0000_i1025"
+src="HW4_files/image031.png"></span><![endif]><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-left:1.0in;text-align:center'><!--[if gte msEquation 12]><m:oMathPara><m:oMath><m:sSub><m:sSubPr><span
+    style='font-size:18.0pt;mso-ansi-font-size:18.0pt;mso-bidi-font-size:14.0pt;
+    font-family:"Cambria Math";mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:
+    "Cambria Math";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+    style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+    mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>B</m:r></span></span></i></m:e><m:sub><i
+    style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;
+    mso-bidi-font-size:12.0pt;font-family:"Cambria Math"'><m:r><span>new</m:r></span></span></i></m:sub></m:sSub><i
+  style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Cambria Math"'><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]=
+   </m:r></span></span></i><i style='mso-bidi-font-style:normal'><span
+  style='font-size:18.0pt;mso-bidi-font-size:14.0pt;font-family:"Cambria Math"'><m:r><span>M</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]</m:r></span></span></i><i
+  style='mso-bidi-font-style:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+  12.0pt;font-family:"Cambria Math"'><m:r><span>&#8901;</m:r></span><m:r><span>B</m:r></span><m:r><span>[</m:r></span><m:r><span>i</m:r></span><m:r><span>]
+   </m:r></span></span></i></m:oMath></m:oMathPara><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+JA;mso-bidi-language:AR-SA'><img width=169 height=23 id="_x0000_i1025"
+src="HW4_files/image032.png"></span><![endif]><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt'>Experiment with different values for <i
+style='mso-bidi-font-style:normal'>a. </i>Try to find a value that gives
+visually pleasing results<i style='mso-bidi-font-style:normal'>. </i>A good
+starting point is </span><!--[if gte msEquation 12]><m:oMath><i
+ style='mso-bidi-font-style:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+ 12.0pt;font-family:"Cambria Math"'><m:r><span>a</m:r></span><m:r><span> = .18</m:r></span></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:12.0pt;font-family:Cambria;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:"\FF2D\FF33 \660E\671D";mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:3.0pt;mso-text-raise:-3.0pt;
+mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'><img
+width=53 height=18 id="_x0000_i1025" src="HW4_files/image033.png"></span><![endif]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>. Include some figures of
+your tone-mapped images. <b style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>What to Submit:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>Submit
+a zip file to the <span class=SpellE>dropbox</span>, which includes<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:1.0in;mso-add-space:auto;
+text-indent:-.25in;mso-list:l0 level1 lfo10'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>A write-up document that explains what you did, what the results are,
+and what problems you encountered. <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l0 level1 lfo10'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>All code that you wrote, including the NativeCamera code running on the
+Tegra, and the <span class=SpellE>Matlab</span> code to evaluate the noise
+statistics.<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;mso-add-space:auto;
+text-indent:-.25in;mso-list:l0 level1 lfo10'><![if !supportLists]><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:Cambria;
+mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Cambria;mso-bidi-theme-font:
+minor-latin'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt'>The write-up should include all the figures that you were instructed to
+generate, and should answer all the questions posed in this document. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'>References:<o:p></o:p></span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l4 level1 lfo12'><![if !supportLists]><span
+style='mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin;
+mso-bidi-font-family:Cambria;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:black'>Paul E. <span
+class=SpellE>Debevec</span>, <span class=SpellE>Jitendra</span> Malik,<span
+class=apple-converted-space>&nbsp;</span></span><a
+href="http://pages.cs.wisc.edu/~cs766-1/projects/hdr/debevec-siggraph97.pdf"
+style='orphans: 2;widows: 2;-webkit-text-size-adjust: auto;-webkit-text-stroke-width: 0px;
+word-spacing:0px'><span style='font-size:13.5pt'>Recovering High Dynamic Range
+Radiance Maps from Photographs</span></a><span style='font-size:13.5pt;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+color:black'>, SIGGRAPH 1997.</span><span style='mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l4 level1 lfo12'><![if !supportLists]><span
+style='mso-fareast-font-family:Cambria;mso-fareast-theme-font:minor-latin;
+mso-bidi-font-family:Cambria;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";color:black'>Erik <span
+class=SpellE>Reinhard</span>, Michael Stark, Peter Shirley, Jim <span
+class=SpellE>Ferwerda</span>,<span class=apple-converted-space>&nbsp;</span></span><a
+href="http://pages.cs.wisc.edu/~cs766-1/projects/hdr/Reinhard2002PTR.pdf"
+style='orphans: 2;widows: 2;-webkit-text-size-adjust: auto;-webkit-text-stroke-width: 0px;
+word-spacing:0px'><span class=SpellE><span style='font-size:13.5pt'>Photographics</span></span><span
+style='font-size:13.5pt'> Tone Reproduction for Digital Images</span></a><span
+style='font-size:13.5pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman";color:black'>, SIGGRAPH 2002.</span><span style='mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+</div>
+
+</body>
+
+</html>
