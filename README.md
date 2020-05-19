@@ -107,7 +107,25 @@ NOTE: The final is take-home! While there is a meeting time for the final, we wo
 | 06/10 | | FINAL | 10 |
 | Total | | | 100 |
 
-### AccessibleNU
+### USEFUL LINKS
+
+Useful Links
+
+Similar Courses in Other Universities
+- [Computational Photography (Gu, RIT)](http://www.cis.rit.edu/jwgu/teach/compphoto/compphoto_201301.htm)
+- [Computational Photography SIGGRAPH Course (Raskar & Tumblin)](http://web.media.mit.edu/~raskar/photo/)
+- [Computational Camera and Photography (Raskar, MIT)](http://cameraculture.media.mit.edu/Fall2010ComputationalCamera)
+- [Digital and Computational Photography (Durand & Freeman, MIT)](http://groups.csail.mit.edu/graphics/classes/CompPhoto06/)
+- [Computational Photography (Levoy & Wilburn, Stanford)](http://www.cis.rit.edu/people/faculty/jwgu/teach/compphoto/compphoto_201301.htm)
+- [Computational Photography (Belhumeur, Columbia)](http://www.cs.columbia.edu/~belhumeur/courses/compPhoto/compPhoto4.html)
+- [Computational Photography (Efros, CMU)](http://graphics.cs.cmu.edu/courses/15-463/2010_fall/463.html)
+- [Computational Photography (Essa, Georgia Tech)](http://www.cc.gatech.edu/classes/AY2005/cs4803cp_summer/)
+- [Computational Photography (Fergus, NYU)](http://cs.nyu.edu/~fergus/teaching/comp_photo/index.html)
+- [Computer Vision (Seitz, U of Washington)](http://www.cs.washington.edu/education/courses/cse576/09sp/)
+- [Computer Vision (Zhang, U of Wisconsin)](http://pages.cs.wisc.edu/~lizhang/courses/cs766-2010f/)
+- [Computer Vision (Snavely, Cornell)](http://www.cs.cornell.edu/courses/cs6670/2011sp/)
+- [Introduction to Visual Computing (Kutulakos, U of Toronto)](http://www.cs.toronto.edu/~kyros/courses/320/index.2011s.html)
+
 
 |[**Top**](#top)|  [**Calendar**](#calendar)| [**Links**](#links)| [**Slides**](#slides)|  [**Readings**](#readings)|
 
