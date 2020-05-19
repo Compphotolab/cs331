@@ -109,8 +109,6 @@ NOTE: The final is take-home! While there is a meeting time for the final, we wo
 
 ### USEFUL LINKS
 
-Useful Links
-
 Similar Courses in Other Universities
 - [Computational Photography (Gu, RIT)](http://www.cis.rit.edu/jwgu/teach/compphoto/compphoto_201301.htm)
 - [Computational Photography SIGGRAPH Course (Raskar & Tumblin)](http://web.media.mit.edu/~raskar/photo/)
@@ -126,6 +124,19 @@ Similar Courses in Other Universities
 - [Computer Vision (Snavely, Cornell)](http://www.cs.cornell.edu/courses/cs6670/2011sp/)
 - [Introduction to Visual Computing (Kutulakos, U of Toronto)](http://www.cs.toronto.edu/~kyros/courses/320/index.2011s.html)
 
+### MORE LINKS
+
+More Links
+
+- [What is Computational Camera](http://www1.cs.columbia.edu/CAVE/projects/what_is/), [Shree Nayar](http://www1.cs.columbia.edu/CAVE/projects/what_is/), [Columbia](http://www1.cs.columbia.edu/CAVE/projects/what_is/)
+- Columbia Projects, [Shree Nayar](http://www1.cs.columbia.edu/CAVE/projects/cc.php), [Peter Belhumeur](http://www.cs.columbia.edu/~belhumeur/)
+- MIT Projects, [Fredo Durand](http://projects.csail.mit.edu/photo/), [William Freeman](http://projects.csail.mit.edu/photo/), [Edward Adelson](http://projects.csail.mit.edu/photo/), [Antonio Torralba](http://projects.csail.mit.edu/photo/), [Raskar Ramesh](http://cameraculture.media.mit.edu/projects)
+- Stanford Projects, [Marc Levoy and collaborators](http://graphics.stanford.edu/projects/lightfield/)
+- USC Projects, [Paul Debevec](http://ict.debevec.org/~debevec/) and collaborators
+- CMU Projects, [Narasimhan](http://www.cs.cmu.edu/~ILIM/projects/), [Efros](http://www.cs.cmu.edu/~efros/)
+- [Jack Tumblin's 'Questions' for the field](http://www.cs.northwestern.edu/~jet/research.html)
+
+Conferences: [ICCP 2011](http://www.cs.cmu.edu/~ICCP2011/), ICCP 2010, ICCP 2009, SIGGRAPH, SIGGRAPH Asia, CVPR, ICCV, ECCV, ..
 
 |[**Top**](#top)|  [**Calendar**](#calendar)| [**Links**](#links)| [**Slides**](#slides)|  [**Readings**](#readings)|
 
