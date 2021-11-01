@@ -60,7 +60,7 @@ by 11:59pm on the due date.  Code is due in your individual GitHub Classroom cod
 ### Lecture Calendar
 
 This is a prediction of what will be covered in each week but the schedule is 
-subject to change as the course progresses.
+subject to change as the course progresses
 
 | Week of| Lecture of week | Topic             | 
 |------|-----|---------------------------------|
