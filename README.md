@@ -2,6 +2,8 @@
 # CS331: Introduction to Computational Photography @ Northwestern
 Winter 2022  
 
+### Previous year courses
+
 |[**Top**](#top)|  [**Calendar**](#calendar)| [**Links**](#links)| [**Slides**](#slides)|  [**Readings**](#readings)| [**Credits**](#credits)
 
 ### Course Goals
