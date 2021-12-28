@@ -1,6 +1,6 @@
 <a name="top"></a>
 # CS331: Introduction to Computational Photography @ Northwestern
-Fall 2020  
+Winter 2022  
 
 |[**Top**](#top)|  [**Calendar**](#calendar)| [**Links**](#links)| [**Slides**](#slides)|  [**Readings**](#readings)| [**Credits**](#credits)
 
@@ -11,50 +11,33 @@ To teach the fundamentals of modern camera architectures and give students hand-
 ### Course Description
 This course is the first in a two-part series that explores the emerging new field of Computational Photography. Computational photography combines ideas in computer vision, computer graphics, and image processing to overcome limitations in image quality such as resolution, dynamic range, and defocus/motion blur. This course will first cover the fundamentals of image sensing and modern cameras.  We will then continue to explore more advanced topics in computer vision. We will then use this as a basis to explore recent topics in computational photography such as motion/defocus deblurring cameras, light field cameras, and computational illumination.
 
-This course will consist of six homework assignments and no midterm or final exam. We will provide a Nvidia Tegra tablet for each student in the course. Students will write programs that run on the phone to capture photos. Enrollment is limited to 30 students.
-
 ### Prerequisites
 
-EECS 211 and/or 230 or permission from instructor. Students should have experience with C/C++ and MATLAB programming. If you are interested, please contact the instructor to discuss!
+EECS 211 and/or 230 or permission from instructor. Students should have experience with Python programming. If you are interested, please contact the instructor to discuss!
 
 ### Time & Place 
-CS331 lecture: All lectures will be pre-recorded and linked through canvas
+Monday & Wednesday 12:30-1:50. The first two weeks will be online classes via zoom. The rest of the quarter will be in person.
 
 ### Instructors & Office Hours
-[Oliver Cossairt](https://compphotolab.northwestern.edu/)
-Office Hours: Thursday 3-5PM - signup for 10min slots at youcanbookme.com - see CANVAS for instructions 
-Office: Rm 3511, Seeley Mudd
-Office Phone: (847) 491-0895.
-Mail: oliver.cossairt (@) northwestern.edu
+Florian Willomitzer Office Hours: write an email to florian.willomitzer@northwestern.edu to book a 10min slot.
 
 #### Teaching assistants  & Office Hours
-
-[Florian Schiffers](https://compphotolab.northwestern.edu/) - Office Hours:  Thursday @ 10AM-noon - signup for 10min slots at youcanbookme.com - see CANVAS for instructions
-Mail: florian.schiffers (a) northwestern.edu
-
-
-#### Peer Mentors & Office Hours (TBD)
-
-| Group | Day | Time | Name | Contact |
-|-------|-----|------|------|---------|
-| 1     | Mon | 12pm - 2pm | Kevin | kevinmendozatudares2022 (at) u.northwestern.edu |
-| 2     | Mon | 5pm - 7pm | Itay | itaygolan2021 (at) u.northwestern.edu |
+Aniket Dashpute -  email : aniketdashpute2025@u.northwestern.edu 
+Jiazhang Wang -  email : jiazhangwang2024@u.northwestern.edu 
+Office hours are replaced with increased Campuswire activity on myside. For coding questions that involve your own code, please make a private thread that is only visibile to TA/Instructor.
 
 ### Policies 
-* *Grading:* Homeworks 0 through 8, and the final exam are each worth 10 points. They sum to 100. You're graded on a basis of 100 points.  In other words, under normal grading policy ... 93-100 is an A, 90 - 92 is an A-, 87-89 is a B+, 83-86 is a B, 80-82 is a B-...and so on. DUE TO THE COVID-19 SITUATION THIS SPRING, THERE WILL BE NO LETTER GRADES ASSIGNED FOR THE COURSE. ALL UNDERGRADUATE GRADES WILL BE PASS/FAIL (P/N) - 60 POINTS OR GREATER WILL RESULT IN A PASSING GRADE. GRADUATE STUDENTS MAY REQUEST A LETTER GRADE AT THE END OF THE COURSE, BUT THE DEFAULT GRADE WILL BE PASS/FAIL. 
+* *Grading:* Homeworks 1 through 7 are each graded Pass/Fail. Each homework consists of a coding and a technical writeup. Your coding must be correct, and your writeup must be clearly written  in order to receive a passing grade. For each assignment that you fail, your grade gets lowered by one letter. So if you pass all seven assignments you get an A, if you fail one assignment you get a B, if you fail two you get a C, and so on. You can resubmit up to three homework assignments that you received a failing grade for. We plan to stick closely to these grading guidelines, but some exceptions may be made for partial credit (e.g. A-/B+, etc.).
 
-* *Extra Credit:* Campus Wire interaction is encouraged and a maximum amount of 10 points will be given depending on the amount of your interaction. Obvious gaming of the system will punished by removing extra points and removing 5 points from your total credits. There will be no special extra credit for individual students who request additional extra credit beyond the extra credit we already provide. 
+* *When and Where to Submit Assignments:*  A writeup report for each assignment must be submitted on Canvas by 11:59pm on the due date. Your code must be pushed to your individual GitHub Classroom code repository, also at 11:59pm on the due date.
 
-* *When and Where to Submit Assignments:*  Free responses are due on [Canvas](http://www.it.northwestern.edu/education/login.html) 
-by 11:59pm on the due date.  Code is due in your individual GitHub Classroom code repository, also at 11:59pm on the due date. 
-
-* *Late Policy:*  If there is nothing on Canvas by 11:59pm on the due date, the free response grade is 0. If there is nothing in your github repository by 11:59pm on the due date, the coding grade is 0. The most recent code on github at 11:59pm on the due date is the code we will grade. The most recent submission in Canvas at that point, is the one we grade. A good approach is to continually check in and push to GitHub as you work. Also, put up a "safety" submission on Canvas with what you currently have, an hour prior to the deadline. 
+* *Late Policy:* If EITHER there is nothing on Canvas OR your code has not been pushed to by 11:59pm on the due date, you fail the assignment. The most recent code on github at 11:59pm on the due date is the code we will grade. The most recent submission in Canvas at that point, is the one we grade. A good approach is to continually check in and push to GitHub as you work. Also, put up a “safety” submission on Canvas with what you currently have, an hour prior to the deadline. You can resubmit up to three homework assignments that you received a failing grade for.
 
 * *Cheating & Academic Dishonesty:* Do your own work. This includes free response answers and code. Penalties include failing the class and can be more severe than that. If you have a question about whether something may be considered cheating, ask, prior to submitting your work. We will be checking for code duplication. Academic dishonesty will be dealt with as laid out in the student handbook.
 
 * *Attendance* is not graded.
 
-* *Announcements* and discussions will take place on [CampusWire](https://campuswire.com/p/G63AA7CEA). You can sign up for the page at that link using the sign-up code 3680.
+* *Announcements* and discussions will take place on [CampusWire](https://campuswire.com/p/G45D7003E). You can sign up for the page at that link using the sign-up code 6624.
 
 <a name="calendar"></a>
 ### Lecture Calendar
@@ -64,26 +47,26 @@ subject to change as the course progresses
 
 | Week of| Lecture of week | Topic             | 
 |------|-----|---------------------------------|
-| 04/06 | Mon | Introduction                   | 
-|       | Wed | Image Formation                 |  
-| 04/13 | Mon | Image Sensing | 
-|       | Wed | Image Processing I             |
-| 04/20 | Mon | Image Processing II           |
-|       | Wed | Flash and Lighting       |
-| 04/27 | Mon | No Class               |
-|       | Wed | Radiometry        |
-| 05/04 | Mon | K-Means clustering             |
-|       | Wed | HDR Imaging        |
-| 05/11 | Mon | Photometric Stereo         |
-|       | Wed | Shape from Shading  |
-| 05/18 | Mon | Structured Light  |
-|       | Wed | Depth from Focus     |
-| 05/25 | Mon | No Class        |
-|       | Wed | SIFT    | 
-| 06/01 | Mon | Stereo         | 
-|       | Wed | Light Fields           |
-| 06/08 | Mon | Thanksgiving (No Class)          |
-|       | Wed | Light Transport                 |
+| 01/03 | Mon | No lecture                     | 
+| 01/05 | Wed | Introduction                   |  
+| 01/10 | Mon | Image Formation                |  
+| 01/12 | Wed | Spatial domain image processing|
+| 01/17 | Mon | No lecture - MLK Day           |
+| 01/19 | Wed | Fourier domain image processing|
+| 01/24 | Mon | Image Sensing                  |
+| 01/26 | Wed | Flash and Lighting             |
+| 01/31 | Mon | Image Segmentation             |
+| 02/02 | Wed | Radiometry                     |
+| 02/07 | Mon | HDR Imaging                    |
+| 02/09 | Wed | Photometric Stereo             |
+| 02/14 | Mon | Depth from Focus               |
+| 02/16 | Wed | Structured Light 3D Imaging    |
+| 02/21 | Mon | SIFT                           |
+| 02/23 | Wed | Camera Calibration             | 
+| 02/28 | Mon | Light Fields                   | 
+| 03/02 | Wed | Stereo                         |
+| 03/07 | Mon | Optical Flow                   |
+| 03/09 | Wed | Light Transport                |
 
 ### Homework Calendar
 
